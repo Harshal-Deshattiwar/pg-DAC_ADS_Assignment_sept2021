@@ -1,4 +1,4 @@
-package ADS_linearQueue_reverseArray;
+
 
 public class queueUsingArray implements queueInf{
 	int front,rear;
