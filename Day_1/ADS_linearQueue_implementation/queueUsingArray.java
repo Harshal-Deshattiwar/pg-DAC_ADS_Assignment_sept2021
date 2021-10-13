@@ -43,12 +43,8 @@ public class queueUsingArray implements queueInf{
 		else{
 			++front;
 			int element = queue[front];
-			for (int i = 0; i < rear; i++) {
-				queue[i] = queue[i+1];
-			}
-			queue[rear] = 0;
-			rear--;
-			front--;
+
+			queue[front] = 0;
 			
 			System.out.println("Deleted : " + element);
 			return element;
