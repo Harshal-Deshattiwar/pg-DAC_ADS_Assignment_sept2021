@@ -28,7 +28,7 @@ public class circularQueueImpl implements circularQInf {
 
 			rear = ((rear+1) % (size));
 			cirQ[rear] = element;
-			System.out.println("enter else");
+			
 			System.out.println("Added : " + element);
 		
 //			System.out.println("rear = "+rear);
