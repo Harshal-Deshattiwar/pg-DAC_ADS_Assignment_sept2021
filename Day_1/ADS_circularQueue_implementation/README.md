@@ -6,25 +6,21 @@ Added : 1
 Elements in queue
 1  0  0  0  0   
 **********************
-enter else
 Added : 2
 **********************
 Elements in queue
 1  2  0  0  0   
 **********************
-enter else
 Added : 3
 **********************
 Elements in queue
 1  2  3  0  0   
 **********************
-enter else
 Added : 4
 **********************
 Elements in queue
 1  2  3  4  0   
 **********************
-enter else
 Added : 5
 **********************
 Elements in queue
@@ -70,7 +66,6 @@ Added : 5
 Elements in queue
 5  0  0  0  0   
 **********************
-enter else
 Added : 6
 **********************
 Elements in queue
