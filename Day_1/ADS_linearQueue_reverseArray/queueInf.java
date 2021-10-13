@@ -1,4 +1,4 @@
-package ADS_linearQueue_reverseArray;
+
 
 public interface queueInf {
 
