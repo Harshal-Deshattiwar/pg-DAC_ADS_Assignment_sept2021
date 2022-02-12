@@ -15,7 +15,7 @@ public class StackUsingArray implements StackIntf {
 	@Override
 	public void Push(int element) throws CustomException {
 		if(IsFull())
-			throw new CustomException("stack is full");
+			throw new CustomException("stack is full");                  
 		++top;
 		stack[top] = element;
 	}

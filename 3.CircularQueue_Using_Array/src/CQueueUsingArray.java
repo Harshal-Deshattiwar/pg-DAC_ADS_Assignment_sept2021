@@ -17,7 +17,7 @@ public class CQueueUsingArray implements QueueInf{
 		rear=(rear+1)%n;
 		queue[rear] = element;
 		if(front == -1)
-			front=0;
+			front=0;//front=rear
 		
 		
 	}
@@ -29,8 +29,9 @@ public class CQueueUsingArray implements QueueInf{
 		int element = queue[front];
 		queue[front]=0;
 		front=(front+1)%n;
+		//change-----------------
 		if(IsFull())
-			front=-1;
+			front=-1;//--------------------
 		return element;
 	}
 

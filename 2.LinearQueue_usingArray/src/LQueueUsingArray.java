@@ -17,6 +17,9 @@ public class LQueueUsingArray implements QueueInf {
 		if(IsFull())
 			throw new CustomException("Queue is full");
 		queue[++rear]= element;
+		if(front==-1) {
+			front=rear;//changed
+		}
 		
 
 	}
@@ -25,8 +28,8 @@ public class LQueueUsingArray implements QueueInf {
 	public int DeleteQ() throws CustomException {
 		if(IsEmpty())
 			throw new CustomException("Queue is Empty");
-		int element = queue[++front];
-		queue[front]=0;
+		int element = queue[front++];
+		queue[front-1]=0;
 		return element;
 	}
 

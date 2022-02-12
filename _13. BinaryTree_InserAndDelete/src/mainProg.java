@@ -13,9 +13,11 @@ public class mainProg {
 		node.Insert(65);
 		node.Insert(70);
 		node.Insert(12);
+		System.out.println(Arrays.toString(node.Inorder()));
 		node.Delete(30);
 		node.Delete(70);
 		node.Delete(10);
+		System.out.println("");
 		System.out.println(Arrays.toString(node.Inorder()));
 
 	}
